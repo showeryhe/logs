@@ -43,7 +43,7 @@
 3.  用Safari浏览器打开[排班表及值班记录], 
 选择用 Numbers 打开
 
-<div align=center><img width="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
+<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
 
 图1. 在苹果系统中启用 Numbers
 
