@@ -36,9 +36,9 @@
 #### iPhone, iPad端
 1.  前往App Store 下载 Numbers
 
-2.  iOS 10 系统: 请前往*设置* -> iCloud -> iCloud Drive -> 启用Numbers
+2.  iOS 10 系统: 请前往**设置** -> iCloud -> iCloud Drive -> 启用Numbers
 
-    iOS 11 系统: 请前往*设置* -> Apple ID -> iCloud -> 启用Numbers
+    iOS 11 系统: 请前往**设置** -> Apple ID -> iCloud -> 启用Numbers
 
 <div align=center><img height="50" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
 
