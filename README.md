@@ -25,7 +25,7 @@
 
   1. [电脑端](https://github.com/showeryhe/logs#%E7%94%B5%E8%84%91%E7%AB%AF)
   
-  2. [iPhone, iad端](https://github.com/showeryhe/logs#iphone-ipad%E7%AB%AF)
+  2. [iPhone, iPad端](https://github.com/showeryhe/logs#iphone-ipad%E7%AB%AF)
   
   3. [非苹果系统的手机及平板](https://github.com/showeryhe/logs#%E9%9D%9E%E8%8B%B9%E6%9E%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%89%8B%E6%9C%BA%E5%8F%8A%E5%B9%B3%E6%9D%BF)
 
