@@ -5,8 +5,8 @@
 相关内容一共涉及三部分：
 1.    [排班表](https://github.com/showeryhe/logs#%E6%8E%92%E7%8F%AD%E8%A1%A8)
 2.    [值班记录](https://github.com/showeryhe/logs#%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
-    * [查看值班记录](https://github.com/showeryhe/logs#%E6%9F%A5%E7%9C%8B%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
-    * [编辑值班记录](https://github.com/showeryhe/logs#%E7%BC%96%E8%BE%91%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
+        * [查看值班记录](https://github.com/showeryhe/logs#%E6%9F%A5%E7%9C%8B%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
+        * [编辑值班记录](https://github.com/showeryhe/logs#%E7%BC%96%E8%BE%91%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
 3.    [个案服务记录](https://github.com/showeryhe/logs#%E4%B8%AA%E6%A1%88%E6%9C%8D%E5%8A%A1%E8%AE%B0%E5%BD%95)
 
 ***
@@ -45,7 +45,7 @@
 
 ![启用 Numbers]
 
-图1. 在苹果系统中启用 Numbers
+<center>图1. 在苹果系统中启用 Numbers</center>
 
 4.  进入「值班记录」页面即可进行编辑
 
