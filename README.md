@@ -55,7 +55,7 @@
 
 但如果使用的浏览器有「请求桌面访问站点」(Request Desktop Site)的功能(如Firefox火狐浏览器), 则可以打开[排班表及值班记录](https://www.icloud.com/numbers/0hzeSPteYodRrsPlTv5dx5vYw#%E5%AE%B6%E6%9A%B4%E5%92%A8%E8%AF%A2%E5%80%BC%E7%8F%AD%E8%A1%A8)进入「值班记录」页面进行编辑.
 
-<div align=center><img height="200" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/desktop_site.png"/></div>
+<div align=center><img height="300" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/desktop_site.png"/></div>
 
 图2. 在火狐浏览器中请求桌面访问站点功能
 
@@ -63,9 +63,11 @@
 
 敬请期待.
 
-![彩虹暴力终结所](https://github.com/showeryhe/logs/blob/master/imgs_for_readme/name%20card.jpg)
+***
 
+<div align=center><img height="300" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/name%20card.jpg"/></div>
 
+***
 ## 版本记录
 
 v1.0 创建于2017年11月27日
