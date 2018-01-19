@@ -40,10 +40,10 @@
 
     iOS 11 系统: 请前往设置 -> Apple ID -> iCloud -> 启用Numbers
 
+<div align=center><img height="50" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
+
 3.  用Safari浏览器打开[排班表及值班记录], 
 选择用 Numbers 打开
-
-<div align=center><img height="50" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
 
 4.  进入「值班记录」页面即可进行编辑
 
