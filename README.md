@@ -13,7 +13,7 @@
 
 ## 1. 排班表
 
-请通过浏览器进入[排班表及值班记录](https://www.icloud.com/numbers/0hzeSPteYodRrsPlTv5dx5vYw#%E5%AE%B6%E6%9A%B4%E5%92%A8%E8%AF%A2%E5%80%BC%E7%8F%AD%E8%A1%A8)「排班表」页面查看排班安排, 不同颜色对应不同的服务者.
+请通过浏览器进入[排班表及值班记录]「排班表」页面查看排班安排, 不同颜色对应不同的服务者.
 
 ## 2. 值班记录
 
@@ -43,7 +43,7 @@
 3.  用Safari浏览器打开[排班表及值班记录], 
 选择用 Numbers 打开
 
-![启用 Numbers]<div align=center><img width="150" height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
+<div align=center><img width="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
 
 图1. 在苹果系统中启用 Numbers
 
