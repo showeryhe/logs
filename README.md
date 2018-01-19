@@ -43,7 +43,7 @@
 3.  用Safari浏览器打开[排班表及值班记录], 
 选择用 Numbers 打开
 
-<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
+<div align=center><img height="50" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
 
 图1. 在苹果系统中启用 Numbers
 
@@ -55,7 +55,7 @@
 
 但如果使用的浏览器有「请求桌面访问站点」(Request Desktop Site)的功能(如Firefox火狐浏览器), 则可以打开[排班表及值班记录](https://www.icloud.com/numbers/0hzeSPteYodRrsPlTv5dx5vYw#%E5%AE%B6%E6%9A%B4%E5%92%A8%E8%AF%A2%E5%80%BC%E7%8F%AD%E8%A1%A8)进入「值班记录」页面进行编辑.
 
-![请求桌面访问站点]
+<div align=center><img height="200" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/desktop_site.png"/></div>
 
 图2. 在火狐浏览器中请求桌面访问站点功能
 
@@ -75,4 +75,3 @@ v1.1 更新于2018年1月8日 添加彩虹暴力终结所名片
 v1.2 更新于2018年1月19日 添加排班表及值班记录使用说明
 
 [排班表及值班记录]: https://www.icloud.com/numbers/0hzeSPteYodRrsPlTv5dx5vYw#%E5%AE%B6%E6%9A%B4%E5%92%A8%E8%AF%A2%E5%80%BC%E7%8F%AD%E8%A1%A8
-[请求桌面访问站点]: https://github.com/showeryhe/logs/blob/master/imgs_for_readme/desktop_site.png
