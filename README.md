@@ -19,7 +19,7 @@
 
 ### 查看值班记录
 
-确定连网后, 通过浏览器进入[排班表及值班记录](https://www.icloud.com/numbers/0hzeSPteYodRrsPlTv5dx5vYw#%E5%AE%B6%E6%9A%B4%E5%92%A8%E8%AF%A2%E5%80%BC%E7%8F%AD%E8%A1%A8)「值班记录」页面进行查看.
+确定连网后, 通过浏览器进入[排班表及值班记录]「值班记录」页面进行查看.
 
 ### 编辑值班记录
 
@@ -43,9 +43,9 @@
 3.  用Safari浏览器打开[排班表及值班记录], 
 选择用 Numbers 打开
 
-![启用 Numbers]
+![启用 Numbers]<div align=center><img width="150" height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg"/></div>
 
-<center>图1. 在苹果系统中启用 Numbers</center>
+图1. 在苹果系统中启用 Numbers
 
 4.  进入「值班记录」页面即可进行编辑
 
@@ -75,5 +75,4 @@ v1.1 更新于2018年1月8日 添加彩虹暴力终结所名片
 v1.2 更新于2018年1月19日 添加排班表及值班记录使用说明
 
 [排班表及值班记录]: https://www.icloud.com/numbers/0hzeSPteYodRrsPlTv5dx5vYw#%E5%AE%B6%E6%9A%B4%E5%92%A8%E8%AF%A2%E5%80%BC%E7%8F%AD%E8%A1%A8
-[启用 Numbers]: https://github.com/showeryhe/logs/blob/master/imgs_for_readme/enactivate_numbers.jpg
 [请求桌面访问站点]: https://github.com/showeryhe/logs/blob/master/imgs_for_readme/desktop_site.png
