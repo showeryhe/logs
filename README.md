@@ -3,11 +3,11 @@
 亲爱的服务者，你好！本文档用于说明「彩虹暴力终结所『家暴干预服务』」的值班安排及服务记录。使用过程中有任何问题请联系 showeryhe@hotmail.com .
 
 相关内容一共涉及三部分：
-1.  [排班表](https://github.com/showeryhe/logs#%E6%8E%92%E7%8F%AD%E8%A1%A8)
-2.  [值班记录](https://github.com/showeryhe/logs#%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
-  * [查看值班记录](https://github.com/showeryhe/logs#%E6%9F%A5%E7%9C%8B%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
-  * [编辑值班记录](https://github.com/showeryhe/logs#%E7%BC%96%E8%BE%91%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
-3.  [个案服务记录](https://github.com/showeryhe/logs#%E4%B8%AA%E6%A1%88%E6%9C%8D%E5%8A%A1%E8%AE%B0%E5%BD%95)
+1.    [排班表](https://github.com/showeryhe/logs#%E6%8E%92%E7%8F%AD%E8%A1%A8)
+2.    [值班记录](https://github.com/showeryhe/logs#%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
+    * [查看值班记录](https://github.com/showeryhe/logs#%E6%9F%A5%E7%9C%8B%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
+    * [编辑值班记录](https://github.com/showeryhe/logs#%E7%BC%96%E8%BE%91%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
+3.    [个案服务记录](https://github.com/showeryhe/logs#%E4%B8%AA%E6%A1%88%E6%9C%8D%E5%8A%A1%E8%AE%B0%E5%BD%95)
 
 ***
 
