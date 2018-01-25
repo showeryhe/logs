@@ -1,0 +1,69 @@
+<html>
+<style>
+	#case-log {
+		background-color: green;
+	}
+	
+	.orange-background {
+		background-color: orange
+	}
+	.smaller-image {
+		width: 300px;
+	}
+</style>
+<body>
+
+<div class="orange-background">
+	<p>本表的使用范围及填写说明请参考<a href = "https://github.com/showeryhe/logs">这里</a></p>
+</div>
+<form action = "/submit-case-log" id = "case-log">
+	编号 
+		<input type = "text" name = "number" placeholder = "xyyyymmddnn">
+		<br>
+	服务类型 
+		<select name = "type">
+		<option value = "consult">咨询</option>
+		<option value = "case">个案</option>
+		</select>
+		<br>
+	日期 
+		<input type = "text" name = "casedate" placeholder = "yyyymmdd">
+		<br>
+	服务时长
+		<input type = "text" name = "duration" placeholder = "精确到钟头">
+		<br>
+	服务者 
+		<select name = "worker">
+			<option value = "AK">AK</option>
+			<option value = "WM">WM</option>
+			<option value = "R">R</option>
+			<option value = "YSC">YSC</option>
+			<option value = "LY">LY</option>
+		</select>
+		<br>
+	来访渠道 
+		<select name = "channel">
+		<option value = "wechat">微信</option>
+		<option value = "QQ">QQ</option>
+		<option value = "hotline">电话</option>
+		<option value = "email">电子邮件</option>
+		</select>
+		<br>
+	案件类型 
+		<label><input type="radio" name="case-type">原生家庭暴力</label>
+		<label><input type="radio" name="case-type">亲密关系暴力</label>
+		<label><input type="radio" name="case-type">其他</label>
+		</select>
+		<br>
+	内容简述 
+		<input type = "text" name = "description" placeholder="简单介绍案情">
+		<br>
+	备注 
+		<input type = "text" name = "note" placeholder="备注">
+		<br>
+		<button type = "submit">提交</button>
+		<br>
+</form>
+<img class = "smaller-image" src = "https://github.com/showeryhe/logs/raw/master/imgs_for_readme/name%20card.jpg" alt = "Name Card">
+</body>
+<html>
