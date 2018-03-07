@@ -7,7 +7,7 @@
 2.    [值班记录](https://github.com/showeryhe/logs#%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
         * [查看值班记录](https://github.com/showeryhe/logs#%E6%9F%A5%E7%9C%8B%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
         * [编辑值班记录](https://github.com/showeryhe/logs#%E7%BC%96%E8%BE%91%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
-        * [添加新行](https://github.com/showeryhe/logs#%E7%BC%96%E8%BE%91%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
+        * [添加新行](https://github.com/showeryhe/logs#%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%9A%84%E8%A1%8C)
         * [添加新行](https://github.com/showeryhe/logs#%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%9A%84%E8%A1%8C)
 3.    [个案服务记录](https://github.com/showeryhe/logs#%E4%B8%AA%E6%A1%88%E6%9C%8D%E5%8A%A1%E8%AE%B0%E5%BD%95)
 
