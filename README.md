@@ -62,7 +62,7 @@
 
 1. 找到有格式、无记录的一行，**单击行号**以选定该行，`ctrl` + `c` 复制该行。
 
-<div align=center><img height="130" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_1.jpg"/></div>
+<div align=center><img width="700" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_1.jpg"/></div>
 
 2. `alt` + `↓` 在下方添加一空白行
 
