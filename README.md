@@ -7,7 +7,7 @@
 2.    [值班记录](https://github.com/showeryhe/logs#%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
         * [查看值班记录](https://github.com/showeryhe/logs#%E6%9F%A5%E7%9C%8B%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
         * [编辑值班记录](https://github.com/showeryhe/logs#%E7%BC%96%E8%BE%91%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
-        * [添加新的行（电脑端页面）]
+        * [添加新的行](https://github.com/showeryhe/logs#%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%9A%84%E8%A1%8C)
 3.    [个案服务记录](https://github.com/showeryhe/logs#%E4%B8%AA%E6%A1%88%E6%9C%8D%E5%8A%A1%E8%AE%B0%E5%BD%95)
 
 ***
@@ -57,13 +57,21 @@
 
 ### 添加新的行
 
-1. 找到有格式、无记录的一行，单击行号以选定该行，ctrl + c 复制该行。
+0. **请在电脑端页面进行此操作**
 
-https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_1.jpg?raw=true
+1. 找到有格式、无记录的一行，**单击行号**以选定该行，`ctrl` + `c` 复制该行。
 
-* alt + ↓ 在下方添加一空白行
+<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_1.jpg"/></div>
 
-3. ctrl + v 在新加的空白行上粘贴刚才复制的格式
+2. `alt` + `↓` 在下方添加一空白行
+
+<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_2.jpg"/></div>
+
+3. `ctrl` + `v` 在新加的空白行上粘贴刚才复制的格式，可能需要稍等一下才能正常显示
+
+<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_3_1.jpg"/></div>
+
+<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_3_2.jpg"/></div>
 
 ## 3. 个案服务记录
 
