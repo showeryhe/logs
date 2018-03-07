@@ -1,4 +1,4 @@
-# 说明文档 v1.2
+# 说明文档 v1.3
 
   亲爱的服务者, 你好. 本文档用于说明「彩虹暴力终结所『家暴干预服务』」的值班安排及服务记录. 使用过程中有任何问题请联系 showeryhe@hotmail.com .
 
@@ -7,7 +7,8 @@
 2.    [值班记录](https://github.com/showeryhe/logs#%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
         * [查看值班记录](https://github.com/showeryhe/logs#%E6%9F%A5%E7%9C%8B%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
         * [编辑值班记录](https://github.com/showeryhe/logs#%E7%BC%96%E8%BE%91%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
-3.    [个案服务记录](https://github.com/showeryhe/logs#%E4%B8%AA%E6%A1%88%E6%9C%8D%E5%8A%A1%E8%AE%B0%E5%BD%95)
+        * [添加新的行（电脑端页面）]
+3.    [个案服务记录](https://github.com/showeryhe/logs#%E4%B8%AA%E6%A1%88%E6%9C%8D%E5%8A%A1%E8%AE%B0%E5%BD%95)
 
 ***
 
@@ -54,6 +55,16 @@
 
 <div align=center><img height="350" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/desktop_site.png"/></div>
 
+### 添加新的行
+
+1. 找到有格式、无记录的一行，单击行号以选定该行，ctrl + c 复制该行。
+
+https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_1.jpg?raw=true
+
+* alt + ↓ 在下方添加一空白行
+
+3. ctrl + v 在新加的空白行上粘贴刚才复制的格式
+
 ## 3. 个案服务记录
 
     敬请期待.
@@ -70,5 +81,7 @@ v1.0 创建于2017年11月27日
 v1.1 更新于2018年1月8日 添加彩虹暴力终结所名片
 
 v1.2 更新于2018年1月19日 添加排班表及值班记录使用说明
+
+v1.3 更新于2018年3月7日 添加内容「添加新的行」
 
 [排班表及值班记录]: https://www.icloud.com/numbers/0hzeSPteYodRrsPlTv5dx5vYw#%E5%AE%B6%E6%9A%B4%E5%92%A8%E8%AF%A2%E5%80%BC%E7%8F%AD%E8%A1%A8
