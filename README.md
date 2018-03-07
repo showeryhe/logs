@@ -62,17 +62,17 @@
 
 1. 找到有格式、无记录的一行，**单击行号**以选定该行，`ctrl` + `c` 复制该行。
 
-<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_1.jpg"/></div>
+<div align=center><img height="130" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_1.jpg"/></div>
 
 2. `alt` + `↓` 在下方添加一空白行
 
-<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_2.jpg"/></div>
+<div align=center><img height="130" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_2.jpg"/></div>
 
 3. `ctrl` + `v` 在新加的空白行上粘贴刚才复制的格式，可能需要稍等一下才能正常显示
 
-<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_3_1.jpg"/></div>
+<div align=center><img height="130" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_3_1.jpg"/></div>
 
-<div align=center><img height="150" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_3_2.jpg"/></div>
+<div align=center><img height="130" src="https://github.com/showeryhe/logs/blob/master/imgs_for_readme/AddNewLine_3_2.jpg"/></div>
 
 ## 3. 个案服务记录
 
