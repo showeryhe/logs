@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+	test
+{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+	<h1>你好哇！
+		{% if name %}
+			小{{name}}
+		{% else %}
+			Stranger~
+		{% endif %}
+	</h1>
+	{% if not known %}
+		<p>认识你啦，请多指教！</p>
+	{% else %}
+		<p>一直就想再见到你！</p>
+	{% endif %}
+</div>
+{{ wtf.quick_form(form)}}
+{% endblock %}

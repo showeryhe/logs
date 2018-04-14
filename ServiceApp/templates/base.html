@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"
+>
+
+	<!-- Bootsrap core CSS -->
+	<link rel="stylesheet" href="https://tuna.moe/assets/css/bootstrap.css">
+
+	<!-- Custom styles for this template -->
+	<link href="https://tuna.moe/assets/css/style.css" rel="stylesheet">
+	<link href="https://tuna.moe/assets/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- jQuery -->
+	<script src="https://tuna.moe/assets/js/jquery-2.1.1.min.js"></script>
+	<script src="https://tuna.moe/assets/js/bootstrap.min.js"></script>
+
+	<!-- 引入Javascript / CSS （CDN）-->
+	<!-- DataTables CSS -->
+	<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+     
+	<!-- DataTables -->
+	<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
+
+	<style>
+		.foot-wrap{
+			background-color: #EAEAEA
+		}
+	</style>
+	<title>
+		{% block title %}彩虹暴力终结所	{% endblock %}
+	</title>
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-default navbar-fixed-top"  role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">彩虹暴力终结所</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="navbar-collapse collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li><a href="/">首页</a></li>
+					<li><a href="/log">记录</a></li>
+					<li><a href="/data">查看</a></li>
+					<li><a href="/chat">交流</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	{% block content %}
+	<div class="container">
+		{% block page_content %}
+		{% endblock %}
+	</div>
+	{% endblock %}
+	
+	<div id="pagefooter">
+		<footer class="container tuna-foot-1">
+			<p align="center" style="margin-top:20px">&copy; Common Language 2018</p>
+		</footer>
+	</div>
+
+	<script>
+		{% block script %}
+		{% endblock %}
+	</script>
+</body>
+</html>
