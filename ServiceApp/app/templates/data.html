@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block content %}
+	{% block page_content %}
+		<table id="results" class="display" width="100%"></table>
+	{% endblock %}
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-ui-bootstrap/0.5pre/assets/js/jquery-ui-1.10.0.custom.min.js"></script>
+<script src="https://cdn.pho.im/js/form-render.min.js"></script>
+<script src="https://cdn.bootcss.com/datatables/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<script src="https://cdn.datatables.net/buttons/1.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.flash.min.js"></script>
+<script src="https://cdn.bootcss.com/jszip/3.1.5/jszip.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.print.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+{% endblock %}
+
+{% block script %}
+		var dataSet = [
+			[
+				"Tiger Nixon",
+				"System Architect",
+				"Edinburgh",
+				"5421",
+				"2011/04/25",
+				"$3,120"
+			],
+			[
+				"Garrett Winters",
+				"Director",
+				"Edinburgh",
+				"8422",
+				"2011/07/25",
+				"$5,300"
+			]
+		];
+		$(document).ready(function () {
+			$('#demo').html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>' );
+			$('#results').dataTable( {
+				dataSet: dataSet
+				columns: [
+					{ "title": "Engine" },
+					{ "title": "Browser" },
+					{ "title": "Browser" },
+					{ "title": "Browser" },
+					{ "title": "Browser" },
+					{ "title": "Platform" }
+				]
+			} );
+		  console.log(dataSet, columns)
+		  $('#results').DataTable({
+			"language": {
+			  "url": "https://cdn.datatables.net/plug-ins/1.10.16/i18n/Chinese.json"
+			},
+			dom: 'Bfrtip',
+			buttons: [
+			  'copy', 'csv', 'excel', 'print'
+			],
+			data: ajax,
+			columns: columns
+		  });
+		});
+{% endblock %}
