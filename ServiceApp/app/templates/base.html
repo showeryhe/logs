@@ -2,68 +2,119 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"
->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Bootsrap core CSS -->
-	<link rel="stylesheet" href="https://tuna.moe/assets/css/bootstrap.css">
+	<link rel="stylesheet" href="../static/css/bootstrap.css">
 
 	<!-- Custom styles for this template -->
-	<link href="https://tuna.moe/assets/css/style.css" rel="stylesheet">
-	<link href="https://tuna.moe/assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../static/css/style.css" rel="stylesheet">
+	<link href="../static/css/font-awesome.min.css" rel="stylesheet">
 
 	<!-- jQuery -->
-	<script src="https://tuna.moe/assets/js/jquery-2.1.1.min.js"></script>
-	<script src="https://tuna.moe/assets/js/bootstrap.min.js"></script>
+	<script src="../static/js/jquery-2.1.1.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
 
 	<!-- 引入Javascript / CSS （CDN）-->
 	<!-- DataTables CSS -->
-	<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/jquery.dataTables.css">
      
 	<!-- DataTables -->
-	<script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" charset="utf8" src="../static/js/jquery.dataTables.js"></script>
 
-	<style>
-		.foot-wrap{
-			background-color: #EAEAEA
-		}
-	</style>
 	<title>
-		{% block title %}彩虹暴力终结所	{% endblock %}
+		{% block title %}彩虹暴力终结所{% endblock %}
 	</title>
 </head>
 
 <body>
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-default navbar-fixed-top"  role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="/">彩虹暴力终结所</a>
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="navbar-collapse collapse navbar-right">
-				<ul class="nav navbar-nav">
-					<li><a href="/">首页</a></li>
-					<li><a href="/log">记录</a></li>
-					<li><a href="/data">查看</a></li>
-					<li><a href="/chat">交流</a></li>
-				</ul>
-			</div>
-		</div>
+	<header>
+	<section class="content">
+<!--	<div class ="navbar navbar-default" role="navigation">
+	    <div class="navbar-header">-->
+		<a class="logo"><img src="../static/img/threeenders_noback.v2.png" alt=""></a>
+		  <nav>
+		  <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+		    <div class="navbar-collapse collapse navbar-right">
+			<ul class="nav navbar-nav">
+		      	  {% if current_user.is_authenticated %}
+		 	    <li><a href="/log">记录</a></li>
+                            <li><a href="/data">查看</a></li>
+			    <li><a href="{{ url_for('auth.logout')}}">登出</a></li>
+			  {% else %}
+			    <li><a href="{{ url_for('auth.login') }}">登入</a></li>
+			  {% endif %}
+			</ul>
+		    </div>-->
+		      	  {% if current_user.is_authenticated %}
+		 	    <a href="/log">记录</a>
+                            <a href="/data">查看</a>
+			    <a href="{{ url_for('auth.logout')}}">登出</a>
+			  {% else %}
+			    <a href="{{ url_for('auth.login') }}">登入</a>
+			  {% endif %}
+	  </div>
 	</div>
-	
-	{% block content %}
-	<div class="container">
+	</nav>
+	</section>
+	</header>
+	<section class="content">
+	  <section class="article">
+	    {% if funcname == "data" %}
+	      <p class="mate">刚刚录入的数据可能有延迟</p>
+	      <h2 class="title">查看</h2>
+		<section class="post yue">
+		 <ul> 
+		    <li><h2><a href="/{{funcname}}/legal_case_person">法律个案</a></h2></li>
+			<p>凭案主姓名查看各次咨询记录.</p>
+		    <li><h2><a href="/{{funcname}}/legal_consult">法律咨询</a></h2></li>
+			<p>列出所有咨询的详细信息.</p>
+		    <li><h2><a href="/{{funcname}}/anti_case_start">反家暴个案</a></h2></li>
+			<p>凭案主姓名查看开案、各次咨询及结案记录.</p>
+		    <li><h2>反家暴咨询</h2></li>
+			<p>AK吖，这个需要整合过来吗?</p>
+		  </ul>
+		</section>
+	    {% endif %}
+	    {% if funcname == "log" %}
+	      <h2 class="title">记录</h2>
+		<section class="post yue">
+		  <ul>
+		    <li><h2>法律个案</h2>
+		      <ul>
+			 <li><a href="/{{funcname}}/legal_case_person">案主档案</a></li>
+			 <li><a href="/{{funcname}}/legal_case_consult">服务记录</a></li>
+		      </ul></li>
+		    <li><h2><a href="/{{funcname}}/legal_consult">法律咨询</a></h2></li>
+		    <li><h2>反家暴个案</h2>
+		      <ul>	
+			<li><a href="/{{funcname}}/anti_case_start">开案</a>
+		   	  <p>AK吖，麻烦告诉我哪些是多选数据哦. 以及要不要给社工增添自己负责个案的编辑功能.</p>
+			<li><a href="/{{funcname}}/anti_case_consult">服务记录</a></li>
+			<li><a href="/{{funcname}}/anti_case_ending">结案记录</a></li>
+		      </ul></li>
+		    <li><h2>反家暴咨询</h2></li>
+			<p>AK吖，这个需要整合过来吗?</p>
+		  </ul>
+		</section>		 
+   	    {% endif %}
+	    {% if category %}
+	      <h2 class="title">{{ category }}</h2>
+	    {% endif %}
+	    {% block content %}
+	      <section class="post yue">
 		{% block page_content %}
 		{% endblock %}
-	</div>
-	{% endblock %}
-	
+	      </section>
+   	    {% endblock %}
+	</section>
+	</section>
 	<div id="pagefooter">
 		<footer class="container tuna-foot-1">
 			<p align="center" style="margin-top:20px">&copy; Common Language 2018</p>

@@ -2,10 +2,21 @@
 {% import "bootstrap/wtf.html" as wtf %}
 
 {% block title %}写日志{% endblock %}
-
 {% block page_content %}
-<div class="page-header">
-	<h1>服务日志</h1>
-</div>
-{{ wtf.quick_form(form) }}
+{% if form %}
+	{{ wtf.quick_form(form) }}
+{% endif %}
+
+{% if form2 %}
+	{{ wtf.quick_form(form2) }}
+{% endif %}
+
+{% if form3 %}
+	{{ wtf.quick_form(form4) }}
+{% endif %}
+
+{% if form4 %}
+	{{ wtf.quick_form(form4) }}
+{% endif %}
+
 {% endblock %}

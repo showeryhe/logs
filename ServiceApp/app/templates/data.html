@@ -1,71 +1,109 @@
 {% extends "base.html" %}
 {% block content %}
 	{% block page_content %}
+	{% if category %}
 		<table id="results" class="display" width="100%"></table>
+	{% endif %}
 	{% endblock %}
-
-<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-<script src="https://cdn.bootcss.com/jquery-ui-bootstrap/0.5pre/assets/js/jquery-ui-1.10.0.custom.min.js"></script>
-<script src="https://cdn.pho.im/js/form-render.min.js"></script>
-<script src="https://cdn.bootcss.com/datatables/1.10.16/js/jquery.dataTables.min.js"></script>
-
-<script src="https://cdn.datatables.net/buttons/1.4.2/js/dataTables.buttons.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.flash.min.js"></script>
-<script src="https://cdn.bootcss.com/jszip/3.1.5/jszip.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.print.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-
+	<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://cdn.bootcss.com/jquery-ui-bootstrap/0.5pre/assets/js/jquery-ui-1.10.0.custom.min.js"></script>
+	<script src="https://cdn.pho.im/js/form-render.min.js"></script>
+	<script src="https://cdn.bootcss.com/datatables/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.4.2/js/dataTables.buttons.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.flash.min.js"></script>
+	<script src="https://cdn.bootcss.com/jszip/3.1.5/jszip.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.4.2/js/buttons.print.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 {% endblock %}
 
 {% block script %}
-		var dataSet = [
-			[
-				"Tiger Nixon",
-				"System Architect",
-				"Edinburgh",
-				"5421",
-				"2011/04/25",
-				"$3,120"
-			],
-			[
-				"Garrett Winters",
-				"Director",
-				"Edinburgh",
-				"8422",
-				"2011/07/25",
-				"$5,300"
-			]
-		];
-		$(document).ready(function () {
-			$('#demo').html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>' );
-			$('#results').dataTable( {
-				dataSet: dataSet
-				columns: [
-					{ "title": "Engine" },
-					{ "title": "Browser" },
-					{ "title": "Browser" },
-					{ "title": "Browser" },
-					{ "title": "Browser" },
-					{ "title": "Platform" }
-				]
+
+$(document).ready(function () {
+	var dataSet = {{ jtest|safe }};
+	if ({{cate}} == 1)
+	{
+		var columns = [{"title": "姓名/昵称"},
+			{"title": "生理性别"},
+			{"title": "性别认同"},
+			{"title": "性倾向"},
+			{"title": "年龄"},
+			{"title": "联系方式"},
+			{"title": "求助途径"},
+			{"title": "居住地"},
+			{"title": "经济状态"},
+			{"title": "案件类型"},
+			{"title": "婚姻状态"},
+			{"title": "案情简述"},
+			{"title": "法律需求"},
+			{"title": "求助经历"},
+			{"title": "备注"},
+			{"title": "咨询日期"},
+			{"title": "接案人员"},
+			{"title": "查看咨询记录"}];
+	}
+	else if ({{cate}}==3)
+	{
+		var columns = [{"title": "咨询日期"},
+			{"title": "咨询简述"},
+			{"title": "后续跟进备忘"},
+			{"title": "备注"},
+			{"title": "接案人员"}];
+	}
+	else if ({{cate}} == 4)
+	{
+		var columns = [{"title": "咨询日期"},
+			{"title": "姓名/昵称"},
+			{"title": "生理性别"},
+			{"title": "性别认同"},
+			{"title": "性倾向"},
+			{"title": "年龄"},
+			{"title": "居住地"},
+			{"title": "了解途径"},
+			{"title": "咨询问题类型"},
+			{"title": "婚姻状况"},
+			{"title": "咨询方式"},
+			{"title": "咨询问题描述"},
+			{"title": "解答"},
+			{"title": "接案人员"}];
+	}
+	else if ({{cate}} == 5)
+	{
+		var columns = [{"title": "开案时间"},
+		{"title": "案主姓名"},
+		{"title": "案件类型"},
+		{"title": "案情简述"},
+		{"title": "接案人"},
+		{"title": "开案档案"},
+		{"title": "咨询记录"},
+		{"title": "结案记录"}];
+	}
+	else if ({{cate}} == 6)
+	{
+		var columns = [{"title": "服务日期"},
+		{"title": "服务纪要"},
+		{"title": "接案社工"}];
+	}
+	else
+	{	
+		var columns = [{"title": "默认"}];
+	}
+	$('#demo').html('<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>' );
+	$('#results').dataTable( {
+		data: dataSet,
+		columns: columns
 			} );
-		  console.log(dataSet, columns)
-		  $('#results').DataTable({
-			"language": {
-			  "url": "https://cdn.datatables.net/plug-ins/1.10.16/i18n/Chinese.json"
+	console.log(data, columns)
+	$('#results').DataTable({
+		"language": {
+		  "url": "https://cdn.datatables.net/plug-ins/1.10.16/i18n/Chinese.json"
 			},
-			dom: 'Bfrtip',
-			buttons: [
-			  'copy', 'csv', 'excel', 'print'
-			],
-			data: ajax,
-			columns: columns
+		dom: 'Bfrtip',
+		data: dataSet,
+		columns: columns
 		  });
 		});
 {% endblock %}
