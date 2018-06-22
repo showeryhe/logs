@@ -1,7 +1,7 @@
-# 说明文档 v1.3
+# 说明文档 v2.0
 
   亲爱的服务者, 你好. 本文档用于说明「彩虹暴力终结所『家暴干预服务』」的值班安排及服务记录. 使用过程中有任何问题请联系 showeryhe@hotmail.com .
-
+### the following is out-of-date ###
   相关内容一共涉及三部分: 
 1.    [排班表](https://github.com/showeryhe/logs#%E6%8E%92%E7%8F%AD%E8%A1%A8)
 2.    [值班记录](https://github.com/showeryhe/logs#%E5%80%BC%E7%8F%AD%E8%AE%B0%E5%BD%95)
