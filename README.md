@@ -95,3 +95,5 @@ v1.2 更新于2018年1月19日 添加排班表及值班记录使用说明
 v1.3 更新于2018年3月7日 添加内容「添加新的行」
 
 [排班表及值班记录]: https://www.icloud.com/numbers/0hzeSPteYodRrsPlTv5dx5vYw#%E5%AE%B6%E6%9A%B4%E5%92%A8%E8%AF%A2%E5%80%BC%E7%8F%AD%E8%A1%A8
+
+| <img src="https://cnlgbtdata.com/static/laws/assets/img/5c57f5dbdfb90.128px.ico" width="60"> | [SnowLeopard](https://github.com/alienwow/SnowLeopard) | [GitHub](https://github.com/alienwow/SnowLeopard) | 实用的 .net core 工具包 |
